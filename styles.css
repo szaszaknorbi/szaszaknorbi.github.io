@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    margin: 0;
+	width: 100%;
+    height: 100vh;
+}
+.nav {
+
+    padding: 25px 100px;
+    align-items: center;
+	display: flex;
+    color: #757575;
+    position:absolute; 
+    top: 3%; 
+    left: -100px; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 50px;
+    float: left;
+}
+
+nav ul li {
+    font-size: 17px;
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+
+    margin-bottom: 0;
+}
+nav ul li a:hover { 
+   color: rgb(175, 108, 108);
+} 
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 5px;
+    transition: .5s;
+    
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); 
+    position: relative;
+
+    padding: 7px 0;
+}
+
+.logo {
+    max-height: 125px;
+    display: flex;
+    
+}
+body {
+    height: 125vh;
+	font-size: 21px;
+/*	background-image: url('dark.jpg'); */
+	font-weight: bolder;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    overflow:hidden;
+}
+
+.title {
+    
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+    line-height:2
+}
+  
+h1 {
+    
+    background-image: url(white.gif);
+    font-weight: bold;
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    position: relative;
+    top: -250px;
+    font-size: 65px;
+    margin: 7px 0;
+}
+  
+
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 7px;
+    color: #FFF;
+    transition: .30s ease-in-out;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-family: "Montserrat";
+}
+  
+.white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+}
+
+/*-----------------------------------*/
+.student {
+    
+    text-align: center;
+    color: rgb(205, 181, 181);
+    position: relative;
+    top: -550px;
+    font-size: 20px;
+    margin: 7px 0;   
+}
+
+.content h2{
+    
+    
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 300;
+    font-weight: bold;
+    line-height: 35px;
+    text-transform: inherit;
+    width: 50%;
+    padding: 30px;
+    margin-bottom: 25px;
+
+    background-image: url(blue.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;    
+}
+.about p {
+    
+    font-size: 35px;
+    font-weight: 450;
+    line-height: normal;
+    color: #5ed5cf;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+
+.languages {
+    
+    font-size: 17px;
+    font-weight: 200;
+    line-height: normal;
+    color: #ebebeb;
+    padding-left: 125px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 35px;    
+}
+
+
+.ides {
+
+    font-size: 17px;
+    font-weight: 200;
+    line-height: normal;
+    color: #ebebeb;
+    padding-left: 125px;
+    padding-right: 650px;
+    margin-top: 15px;
+    margin-bottom: 35px;   
+}
+
+.courses {
+    font-size: 17px;
+    font-weight: 200;
+    line-height: normal;
+    color: #ebebeb;
+    padding-left: 650px;
+    margin-top: -275px;
+    margin-bottom: 75px;   
+}
+.personal {
+    font-size: 17px;
+    font-weight: 200;
+    line-height: normal;
+    color: #ebebeb;
+    
+    margin-top: -20px;
+    padding-left: 650px;
+    margin-bottom: 35px
+}
+
+
+.education h3{
+    font-size: 15px;
+    font-style: italic;
+    font-weight:bold;
+    line-height: 3%;
+    color: #ebebeb;
+    padding-left: 125px;
+    margin-bottom: 35px;
+}
+
+.experience h3{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    color: #ebebeb;
+    padding-left: 125px;
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+.experience p {
+    font-size: 17px;
+    font-weight: 200;
+    line-height:3%;
+    color: #ebebeb;
+    padding-left: 125px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.interests p{
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 3%;
+    color: #ebebeb;
+    padding-left: 125px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.contact h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+  
+    line-height: 35px;
+    text-transform: inherit;
+   
+    padding: 35px;  
+    margin-top: 110px;
+    background-image: url(blue.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+.contact p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: #ebebeb;
+    padding-left: 450px; 
+    margin: 50px;
+}
+
+.btn{
+    color: #65cec9;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    border-radius: 450px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+    background-size: 152% 100%;
+    background: #483d3d;
+    border: 2px solid #5ed5cf;
+    color: #488782;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: transparent;
+    border-color: #5ed5cf;
+    color: #14171a;
+    background-color: #bcb7b7;
+    font-weight: bold;
+}
+
+/*BACKGROUNDS*/
+body#page3 {
+    background-image: url(contact.jpg);
+}
+
+body#page2 {
+    background-image: url("chess.jpg");
+    overflow:visible;
+}
+
+body#page1 {background-image: url(try.gif);
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+
+
